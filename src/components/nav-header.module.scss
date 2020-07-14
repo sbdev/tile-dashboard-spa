@@ -1,0 +1,38 @@
+@import "../styles/variables";
+
+.container {
+    display: flex;
+    padding: $margin-elements $margin-elements*2;
+    background-color: $color-base;
+    justify-content: space-between;
+}
+
+.navBar {
+    display: flex;
+}
+
+.navButton {
+    composes: button from "../styles/ui-kit.scss";
+    flex: auto 0 0;
+    margin-right: $margin-elements;
+}
+
+.dataEntry {
+    display: flex;
+    input {
+        outline: none;
+        border: 1px solid darken($color-base, 20);
+        border-radius: 3px;
+        margin-right: $margin-elements;
+        background: darken($color-base, 10);
+        color: $color-primary;
+    }
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}
+
+.addButton {
+    composes: button from "../styles/ui-kit.scss";
+}
