@@ -10,8 +10,11 @@
     "@types/node": "^12.12.50",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
+    "classnames": "^2.2.6",
+    "mathjs": "^7.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "typescript": "^3.7.5"
   },
@@ -35,5 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/mathjs": "^6.0.5",
+    "@types/react-router-dom": "^5.1.5"
   }
 }
