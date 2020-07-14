@@ -35,7 +35,7 @@ const NavHeader: FunctionComponent = () => {
         const selected = stat === data.filter.stat;
         const title = `Load ${stat}`;
         return <Link
-            id={stat}
+            key={stat}
             to={`/stats/${stat}`}
             className={cx(styles.navButton, selected && styles.selected)}
         >{title}</Link>
