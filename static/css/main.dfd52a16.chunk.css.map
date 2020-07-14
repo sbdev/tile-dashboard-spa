@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.scss"],"names":[],"mappings":"AACA,KACI,QAAS,CACT,SAAU,CACV,qBAAuB,CACvB,6BAA+B","file":"main.dfd52a16.chunk.css","sourcesContent":["\nbody {\n    margin: 0;\n    padding: 0;\n    background-color: white;\n    font-family: Roboto, sans-serif;\n}\n"]}
