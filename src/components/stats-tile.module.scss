@@ -7,7 +7,8 @@ $colorPool: #2965CC #29A634 #D99E0B #D13913 #8F398F #00B3A4 #DB2C6F #9BBF30 #966
     max-width: 25rem;
     margin: $margin-elements;
     background: $color-base;
-    background-image: linear-gradient(180deg, rgba(255,255,255,0.15), rgba(255,255,255,0.1));
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.2), rgba(0,0,0,0));
+    border: 1px solid darken($color-base, 10);    
     padding: $margin-elements*2;
 
     h1 {
@@ -34,6 +35,6 @@ $colorPool: #2965CC #29A634 #D99E0B #D13913 #8F398F #00B3A4 #DB2C6F #9BBF30 #966
 @each $color in $colorPool {
     $i: index($colorPool, $color) - 1;
     .color-#{$i} {
-        background-color: desaturate($color, 30);
+        background-color: desaturate($color, 20);
     }
 }
